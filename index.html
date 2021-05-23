@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   
+
+ 
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="index.css">
+
+    <!--<link rel="stylesheet" href="style.css"> -->
+
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="./fontawesome-free-5.13.0-web/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Advent+Pro|Alfa+Slab+One|Anton|Archivo+Narrow|Baloo+2|Baloo+Chettan+2|Bellota|BenchNine|Caveat|Cinzel|Comfortaa|Concert+One|Cookie|Damion|Dancing+Script|Dosis|Electrolize|Fredoka+One|Great+Vibes|Indie+Flower|Inter|Josefin+Sans|Josefin+Slab|Kaushan+Script|Lato|Lobster|Luckiest+Guy|Monoton|Montserrat|Open+Sans|Oswald|Oxanium|PT+Sans+Caption|Pacifico|Parisienne|Passion+One|Poiret+One|Poppins|Quattrocento+Sans|Raleway|Righteous|Roboto+Mono|Sacramento|Satisfy|Sen|Source+Sans+Pro|Spartan|Titillium+Web|Ubuntu|Ultra|Yellowtail&display=swap" rel="stylesheet">
+
+
+
+    <script>
+
+        $(document).ready(function(){
+
+    //        $('.carousel').flickity({
+  // options
+     //           cellAlign: 'left',
+     //           contain: true
+      //      });
+
+           // $("#menu").css("display", "none");
+
+            $("#hamburger").click(function(){
+
+               $("#menu").slideToggle("slow", function(){
+                    $("#menu").css("height", "400px");
+                    $("#menu").css("z-index", "10");
+
+                    
+               });
+
+                    
+
+            
+
+            });
+
+
+        });
+
+
+    </script>
+
+
+   
+
+</head>
+<body>
+
+
+    <!--
+
+    <div class="main-carousel" data-flickity='{ "groupCells": true }'>
+        <div class="carousel-cell"></div>
+        <div class="carousel-cell"></div>
+        <div class="carousel-cell"></div>
+        <div class="carousel-cell"></div>
+        <div class="carousel-cell"></div>
+        <div class="carousel-cell"></div>
+        <div class="carousel-cell"></div>
+        <div class="carousel-cell"></div>
+        <div class="carousel-cell"></div>
+        <div class="carousel-cell"></div>
+        <div class="carousel-cell"></div>
+    </div>
+      
+    -->
+
+    <div class="container-fluid">
+
+        <div class="row">                   <!--Row1-->
+
+            <div class="col-md-8 seg1">
+
+                <img src="logo1.png">
+               
+                <ul id="menu">
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>Courses</li></a>
+                    <a href="#"><li>Reviews</li></a>
+                    <a href="#"><li>About</li></a>
+                    <a href="#"><li>Contact</li></a>
+                </ul>
+                <i class="fa fa-bars" id="hamburger"></i>
+
+            </div>
+
+            <div class="col-md-4 seg1_2">
+                <div>
+                    <button>SignIn</button>
+                    <input type="submit" value="SignUP">
+                </div>
+               
+
+            </div>
+
+
+        </div>
+
+
+        <div class="row">               <!--Row-->
+
+            <div class="col-md-6 seg2">
+                <h1 class="animate__animated animate__fadeInUp">Build your skills <br>with flexible online courses</h1>
+                <p>We provide immense resources of technical skills related to modern technologies. We appreciate your time and money.</p>
+
+
+                <form>
+                    <i class="fa fa-search" id="search"></i><input type="text" placeholder="Search Your Course"><button><i class="fa fa-arrow-right"></i></button>
+
+
+                </form>
+
+
+            </div>
+
+            <div class="col-md-6 seg2_2">
+                
+                <div>
+                    <i class="fa fa-play"></i>
+                   
+                    <i class="fa fa-globe"></i>
+                    <i class="fa fa-wifi"></i>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div class="row">               <!--Row3-->
+
+            <div class="col-md-12 seg3">
+
+                <h1>Over 100+ courses available to learn</h1>
+
+                <div class="col-sm-7 block1"></div>
+
+                <div class="block2">
+
+                    <h3>You May Also Like</h3>
+                    <h2>Most Popular Courses</h2>
+
+                </div>
+
+               
+
+            </div>
+
+
+
+
+        </div>
+
+        <div class="row">                       <!--Row4-->
+
+            <div class="col-md-12 seg4">
+
+                <section class="col-md-3 section">
+                    <img src="JS.png">
+                    
+                    <a href="#"><span>Apply</span></a>
+                    <h2>JavaScript</h2>
+
+                </section>
+
+                <section class="col-md-3 section">
+                    <img src="ruby1.png">
+                    
+                    <a href="#"><span>Apply</span></a>
+                    <h2>Ruby</h2>
+
+                </section>
+
+                <section class="col-md-3 section">
+                    <img src="python1.png">
+                    
+                    <a href="#"><span>Apply</span></a>
+                    <h2>PYTHON 3.7</h2>
+
+                </section>
+
+            </div>
+
+        </div>
+
+        <div class="row">                   <!--Row5-->
+
+            <div class="col-md-12 seg5"> 
+
+                <h1></h1>
+
+                <p>Rest of Joy ! We appreciate going away<br> from here.Its cool remark <br>Some <b>Red</b> color shades!</p>
+                
+                <div>
+                    <span>Dr. AK Suresh<br><h6>,CEO</h6></span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row">       <!--Row6-->
+
+            <div class="col-md-12 seg6">
+
+                <div class="col-sm-4 foot_block1">
+                    <h1>Brand</h1>
+                    <ul>
+                        <li>Workshops</li>
+                        <li>Testimonials</li>
+                        <li>Opportunity</li>
+                        <li>Philanthropy</li>
+                        <li>Awaited</li>
+
+                    </ul>
+                </div>
+                <div class="col-sm-4 foot_block1">
+
+                    <h1>Services</h1>
+                    <ul>
+                        <li>Placements</li>
+                        <li>Work performance</li>
+                        <li>Collaborations</li>
+                        <li>E-Books</li>
+                        <li>Career</li>
+
+                    </ul>
+
+                </div>
+                <div class="col-sm-4 foot_block2">
+
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-youtube-play"></i></a>
+
+                </div>
+                
+                <div class="col-sm-7 foot_block3">
+
+                    <ul>
+                        <li><i class="fa fa-home"><p>AR Road, Nagar</p></i></li>
+                        <li><i class="fa fa-map-marker"><p>Bangalore</p></i></li>
+                        <li><i class="fa fa-mobile"><p>+91-824551535</p></i></li>
+                        
+                        
+                    </ul>
+                    
+                </div>
+                
+
+
+            </div>
+
+            
+
+
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+  
+
+
+
+
+    
+</body>
+</html>

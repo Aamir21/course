@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.5, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 800" style="enable-background:new 0 0 600 800;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'LeagueSpartan-Bold';}
+	.st3{font-size:34.4308px;}
+</style>
+<g>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="98" y1="598" x2="202" y2="598" gradientTransform="matrix(1 0 0 -1 0 800)">
+		<stop  offset="0" style="stop-color:#ED1C24"/>
+		<stop  offset="1" style="stop-color:#FF1D25"/>
+	</linearGradient>
+	<circle class="st0" cx="150" cy="202" r="52"/>
+</g>
+<text transform="matrix(1 0 0 1 143.1826 219.9307)" class="st1 st2 st3">UP</text>
+<text transform="matrix(1 0 0 1 191.7326 219.9307)" class="st2 st3">  SKILLER</text>
+</svg>

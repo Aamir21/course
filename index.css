@@ -1,0 +1,696 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.seg1{          
+    height: 95px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.seg1 ul li{
+    float: left;
+    margin-left: 50px;
+    margin-top: 35px;
+    list-style-type: none;
+    font-family: Poppins;
+    color: rgb(238, 54, 54);
+    
+
+}
+
+
+.seg1_2 {
+    height: 95px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.seg1_2 div{
+    width: 220px;
+    height: 55px;
+    background-color: white;
+    border: solid thin white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 17px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.seg1_2 div button{
+    width: 140px;
+    height: 45px;
+    background-color:rgb(238, 54, 54);
+    background: linear-gradient(90deg, rgb(238, 54, 54), rgb(221, 40, 40));
+    color: white;
+    border: solid thin transparent;
+    border-radius: 13px;
+    font-family: Poppins;
+    margin-top: 4px;
+    box-shadow: 0px 0px 2px gainsboro;
+   
+
+    
+}
+
+.seg1_2 div input{
+    width: 140px;
+    height: 45px;
+    background-color:transparent;
+    color: rgb(170, 170, 170);
+    border: solid thin transparent;
+    border-radius: 12px;
+    font-family: Poppins;
+    margin-top: 4px;
+    box-shadow: 0px 0px 2px gainsboro;
+    margin-left: 7px;
+    
+}
+
+#hamburger{
+    display: none;
+}
+
+
+.seg2{
+    height: 600px;
+    background: whitesmoke;
+    
+
+
+}
+.seg2 h1{
+    font-family: League Spartan;
+    font-weight: bold;
+    font-size: 55px;
+    color: rgb(104, 97, 97);
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.seg2 p{
+    font-family: Raleway;
+    color: gray;
+    font-weight: bold;
+    margin-left: 100px;
+    padding-bottom: 20px;
+
+}
+
+.seg2 i{
+    font-size: 21px;
+    color: rgb(90, 87, 87);
+    margin-left: 114px;
+    position: absolute;
+    margin-top: 15px;
+}
+
+.seg2 input{
+    width: 380px;
+    height: 50px;
+    border: solid thin white;
+    border-radius: 25px;
+    margin-left: 100px;
+    box-shadow: 0px 0px 5px gainsboro;
+    outline: none;
+    padding-left: 50px;
+    font-family: Poppins;
+}
+
+.seg2 input::placeholder{
+    padding-left: 50px;
+    font-family: "Poppins";
+}
+
+.seg2 form button{
+
+    width: 42px;
+    height: 42px;
+    border: solid thin transparent;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -47px;
+    margin-top: 4px;
+    background:rgb(221, 40, 40);
+    outline: none;
+    
+}
+
+.seg2 form button i{
+    position: absolute;
+    margin-left: -8px;
+    margin-top: -11px;
+    color: white;
+}
+
+.seg2_2{
+    height: 600px;
+    background-color: whitesmoke;
+    background-image: url(laptop.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.seg2_2 div{
+    width: 210px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: solid thin transparent;
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px gainsboro;
+    margin-top: 150px;
+
+}
+
+.seg2_2 div i{
+    font-size: 30px;
+    padding-left: 12%;
+    padding-top: 40%;
+    color: rgb(221, 40, 40);
+
+
+}
+
+
+
+
+
+
+
+.seg3{
+    height: 350px;
+    background: whitesmoke;
+    display: flex;
+}
+
+.seg3 h1{
+    font-family: "League Spartan";
+    margin-left: 8%;
+    
+    background: linear-gradient(90deg, rgb(221, 40, 40), rgb(184, 22, 22));
+                    
+                
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.block1{
+    height: 130px;
+   
+    border-radius: 15px;
+    background-image: url(sponsored2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+.block2{
+    width: 560px;
+    height: 140px;
+    background: transparent;
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 25%;
+
+}
+
+.block2 h3{
+    font-family: Raleway;
+    font-weight: bold;
+    color: goldenrod;
+    text-align: center;
+
+}
+
+.block2 h2{
+    font-family: Poppins;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+
+.seg4{
+    height: 400px;
+    background: whitesmoke;
+    display:flex;
+}
+
+
+
+.section{
+    height: 350px;
+    background: white;
+    margin-left: 80px;
+    border-radius: 15px;
+    border: solid thin whitesmoke;
+    box-shadow: 0px 0px 4px gainsboro;
+
+    
+}
+
+.section img{
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 100%;
+    height: 60%;
+    
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-bottom: 19px;
+}
+
+.section a{
+    outline: none;
+    text-decoration: none;
+    color: transparent;
+}
+
+.section span{
+    width: 100px;
+    height: 36px;
+    font-family: Raleway;
+    background:rgb(221, 40, 40) ;
+    border: solid thin transparent;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+   
+    text-decoration: none;
+
+}
+
+.section h2{
+    font-size: 21px;
+    font-family: Poppins;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+
+.seg5{
+    height: 600px;
+    background:linear-gradient(90deg,rgb(221, 40, 40),rgb(184, 22, 22) );
+    background-image: url("Art1.svg");
+    display: flex;
+    justify-content: center;
+    
+}
+
+.seg5 h1{
+    color: whitesmoke;
+    font-family: Raleway;
+}
+
+.seg5 p{
+    font-size: 40px;
+    font-family: League Spartan;
+    margin-top: 140px;
+    
+
+}
+
+.seg5 p b{
+    color: rgb(235, 27, 27);
+}
+
+.seg5 div{
+    width: 14%;
+    height: 36%;
+    border: solid thin grey;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 280px;
+    right: 120px;
+    box-shadow: 0px 0px 5px gainsboro;
+    background: whitesmoke;
+    background-image: url("Illustration 2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+
+}
+
+.seg5 div span{
+    position: absolute;
+    bottom: 0px;
+    padding-left: 20%;
+    width: 100%;
+    height: 26%;
+    background: white;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-family: Poppins;
+}
+
+.seg5 div span h6{
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.seg6{
+    height: 580px;
+    background:linear-gradient(90deg,rgb(221, 40, 40),rgb(184, 22, 22) );
+    
+    justify-content: center;
+
+    
+}
+
+.foot_block1{
+
+    height: 400px;
+    background: transparent;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.foot_block1 h1{
+    color: white;
+    font-family: Poppins;
+    font-weight: bold;
+
+}
+.foot_block1 ul li{
+    list-style-type: none;
+    font-family: Raleway;
+    margin-top: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.foot_block2{
+
+    height: 100px;
+    background: transparent;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+
+}
+
+.foot_block2 a{
+    margin-left: 20px;
+    font-size: 26px;
+    color: white;
+}
+.foot_block2 a:hover{
+    color: red;
+    transition: all 0.7s ease;
+    
+}
+
+
+
+.foot_block3{
+
+    height: 120px;
+    background: transparent;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+.foot_block3 ul li{
+    list-style-type:none;
+    font-size: 15px;
+    color: white;
+    font-family: Poppins;
+}
+.foot_block3 ul li p{
+    padding-right: 5px;
+    padding-left: 0px;
+    font-size: 15px;
+    color: white;
+    font-family: Poppins;
+    
+}
+
+
+
+
+
+
+
+
+
+/*Mobile View*/
+
+
+
+@media only screen and (max-width: 600px){
+
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: content-box;
+        
+        
+    }
+
+
+    
+   
+
+
+    .seg1{
+        height: 90px;
+        display: flex;
+        justify-content: left;
+        box-shadow: 0px 0px 4px gray;
+        position: absolute;
+        z-index: 20;
+    }
+
+    .seg1 img{
+        position: absolute;
+        width: 60%;
+        height: 100%;
+
+    }
+
+    .seg1 ul{
+        width: 100%;
+        display: none;
+        margin-top: 70px;
+        text-align: center;
+        padding-left: 20%;
+        background: rgb(221, 40, 40);
+        margin-left: 0%;
+        position: absolute;
+        z-index: 3;
+        left: 0%;
+        
+
+    }
+
+    .seg1 ul li{
+        width: 100%;
+        height: 38px;
+        margin-top: 8%;
+        margin-left: 0%;
+        padding-right: 70px;
+        font-size: 30px;
+        color: whitesmoke;
+    }
+
+    
+
+
+
+    .seg1 ul li:hover{
+        cursor: pointer;
+    }
+
+
+
+    #hamburger{
+        display: block;
+        font-size: 30px;
+        position: absolute;
+        right: 10px;
+        z-index: 10;
+        margin-top: 3%;
+    }
+
+    
+
+    
+    .seg1_2 div{
+        width: 100%;
+        overflow-x: hidden;
+        
+        
+
+    }
+
+    .seg1_2 div button{
+        width: 100%;
+    }
+
+    .seg2{
+        
+        height: 90%;
+        
+
+    }
+
+    .seg2 form input{
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .seg2 form button{
+        position: absolute;
+        z-index: 2;
+        right: 5%;
+    }
+
+    .seg2 i{
+        
+        color: rgb(90, 87, 87);
+        z-index: 6;
+        
+    }
+
+    .block2 h3{
+        margin-left: 0%;
+        font-size: 10px;
+        display: none;
+    }
+    .block2 h2{
+        margin-left: 0%;
+        font-size: 8px;
+        display: none;
+    }
+
+
+
+    #search{
+        position: absolute;
+        z-index: 4;
+        left: -20%;
+    }
+
+
+    .seg2 h1{
+        font-size: 150%;
+        text-align: center;
+        margin-left: 0%;
+        margin-top: 14%;
+    }
+
+    .seg2 p{
+        margin-left: 0%;
+
+    }
+
+
+    .seg2_2{
+        margin-left: 0%;
+        display: flex;
+        background-size: 100%;
+        overflow-x: hidden;
+        height: 100%;
+        
+    }
+
+    .seg2_2 div{
+        display: block;
+        
+    }
+
+    .seg3{
+        height: 60%;
+    }
+
+
+    .seg3 h1{
+        display: none;
+        
+    }
+
+
+
+    .seg4{
+        display: block;
+        
+    }
+
+
+    .section{
+        margin-left: 0%;
+        height: 60%;
+        margin-top: 20px;
+        
+    }
+
+    .seg5{
+        margin-top: 300px;
+        background-repeat: no-repeat;
+        background-image: none;
+    }
+    .seg5 p{
+        font-size: 100%;
+    }
+
+    .seg5 div{
+        width: 50%;
+        height: 40%;
+        background-size: 100%;
+        margin-left: 0%;
+        margin-top: 70%;
+        
+    }
+
+    .seg6{
+        height: 100%;
+    }
+
+    .foot_block1{
+        height: 80%;
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
